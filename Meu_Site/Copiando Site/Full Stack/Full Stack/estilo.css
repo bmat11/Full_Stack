@@ -1,0 +1,82 @@
+table{
+    text-align: center;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+/* 
+h1{
+border-style: solid;
+border-color: black;
+
+} */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-style: solid;
+    border-color: darkblue  ;
+    text-align: center;
+    background-color: bisque;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    border: 2px solid lightblue; 
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+            /* width: 80%;  */
+            /* margin: 20px auto;  */
+    background-color: lightblue;
+    margin: auto; 
+}
+
+.img{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.table-container {
+    width: 500px;
+    margin: auto; 
+    border-collapse: collapse; 
+    border: 2px dotted red; 
+    text-align: center;}
+
+.table-container th, .table-container td {
+    border: 1px solid red; 
+    padding: 10px;
+}
+
+.consulta {
+    margin-top: 60px; 
+    background-color: yellow; 
+    text-align: center; 
+    padding: 10px; 
+    width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: bisque;
+    margin-top: 20px;
+}
